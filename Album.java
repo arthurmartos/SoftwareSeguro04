@@ -3,12 +3,12 @@ import java.util.ArrayList;
 public class Album {
     private String nome;
     private Double ano;
-    private ArrayList<Musicas> musica;
+    private ArrayList<Musica> musicas;
 
-    Public Album(String nome, Double ano){
+    public Album(String nome, Double ano){
         this.nome = nome;
         this.ano = ano;
-        this.musicas = new ArrayList<Musicas>();
+        this.musicas = new ArrayList<Musica>();
     }
 
     public String getNome(){
